@@ -15,7 +15,7 @@
 ### Distribution Analysis
 
 #### 1. Individual Activation Functions
-![RMSE Distribution](rmse_histogram.png)
+![RMSE Distribution](images/rmse_histogram.png)
 
 The side-by-side histograms show:
 - **TANH (Left)**: 
@@ -31,7 +31,7 @@ The side-by-side histograms show:
   - Slightly more symmetric distributions compared to TANH
 
 #### 2. Combined Performance Analysis
-![RMSE Comparison](RMSE-false.png)
+![RMSE Comparison](images/RMSE-false.png)
 
 The combined visualization demonstrates:
 - Both activation functions show similar performance patterns
@@ -69,7 +69,7 @@ The combined visualization demonstrates:
 - Mean Cosine Similarity: 0.4984
 - Median Cosine Similarity: 0.3684
 
-![Cosine Similarities Distribution](cosine-sim-with-punct.png)
+![Cosine Similarities Distribution](images/cosine-sim-with-punct.png)
 
 
 ### Model Performance Without Punctuation
@@ -83,7 +83,7 @@ The combined visualization demonstrates:
 - Mean Cosine Similarity: 0.4793
 - Median Cosine Similarity: 0.3315
 
-![Cosine Similarities Distribution](cosine_similarities-without-punctuation.png)
+![Cosine Similarities Distribution](images/ cosine_similarities-without-punctuation.png)
 
 GPT-2 demonstrates consistently superior performance across all metrics, with or without punctuation, suggesting better contextual understanding and more accurate word predictions.
 
@@ -97,7 +97,7 @@ Topic 1 (Financial Markets):
 - investment (0.128)
 - finance (0.112)
 
-![Topic 1](topic1.png)
+![Topic 1](images/topic1.png)
 
 Topic 2 (Technology):
 - technology (0.165)
@@ -106,12 +106,12 @@ Topic 2 (Technology):
 - software (0.125)
 - data (0.118)
 
-![Topic 2](topic2.png)
+![Topic 2](images/  topic2.png)
 
 #### Topic Distance Analysis
 The Kullback-Leibler divergence matrix comparing our 10 topics reveals interesting clustering patterns:
 
-![KL Divergence](kl-divergence.png)
+![KL Divergence](images/kl-divergence.png)
 
 
 ### PageRank Network Analysis
@@ -140,7 +140,7 @@ Key observations:
    - Testing F1-score: 0.6667
    - Perfect training performance but moderate test performance indicates potential overfitting
 
-![Precision-Recall Curve](PR-test.png)
+![Precision-Recall Curve](images/PR-test.png)
 
 The Learning-to-Rank model achieved:
 - Training accuracy: 100%
